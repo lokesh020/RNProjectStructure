@@ -8,10 +8,6 @@ target 'AwesomeFirst' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'AwesomeFirstTests' do
-    inherit! :complete
-    # Pods for testing
-  end
 
   # Enables Flipper.
   #
@@ -23,11 +19,3 @@ target 'AwesomeFirst' do
   end
 end
 
-target 'AwesomeFirst-tvOS' do
-  # Pods for AwesomeFirst-tvOS
-
-  target 'AwesomeFirst-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
