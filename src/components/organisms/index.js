@@ -1,1 +1,0 @@
-export {default as HelloWorldOrg} from './hello-world-organisms';
