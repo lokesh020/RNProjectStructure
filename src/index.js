@@ -3,6 +3,7 @@ import React from 'react';
 import {View,Text} from 'react-native';
 import {HelloWorld} from '_atoms';
 import {Typography} from '_styles';
+import UserModel from '../src/models/UserModel'
 
 const App = () => {
   const userModel = new UserModel({username:"Lokesh The Developer"})
